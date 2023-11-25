@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'Clock'
+Slack : -22.538
+TNS   : -184.243
+
+Type  : Slow 1200mV 85C Model Setup 'Subgrupo-A:inst3|Clock1Hz:inst3|x'
+Slack : -0.933
+TNS   : -8.490
+
+Type  : Slow 1200mV 85C Model Setup 'div_frec_1k:inst6|aux_Z'
+Slack : -0.683
+TNS   : -4.155
+
+Type  : Slow 1200mV 85C Model Setup 'Subgrupo-A:inst3|Clock6Hz:inst|x'
+Slack : -0.079
+TNS   : -0.111
+
+Type  : Slow 1200mV 85C Model Hold 'Clock'
+Slack : -0.157
+TNS   : -0.218
+
+Type  : Slow 1200mV 85C Model Hold 'Subgrupo-A:inst3|Clock6Hz:inst|x'
+Slack : 0.357
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'div_frec_1k:inst6|aux_Z'
+Slack : 0.358
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Subgrupo-A:inst3|Clock1Hz:inst3|x'
+Slack : 0.569
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Clock'
+Slack : -3.000
+TNS   : -79.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Subgrupo-A:inst3|Clock1Hz:inst3|x'
+Slack : -1.000
+TNS   : -10.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Subgrupo-A:inst3|Clock6Hz:inst|x'
+Slack : -1.000
+TNS   : -7.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'div_frec_1k:inst6|aux_Z'
+Slack : -1.000
+TNS   : -7.000
+
+Type  : Slow 1200mV 0C Model Setup 'Clock'
+Slack : -19.991
+TNS   : -155.751
+
+Type  : Slow 1200mV 0C Model Setup 'Subgrupo-A:inst3|Clock1Hz:inst3|x'
+Slack : -0.708
+TNS   : -6.757
+
+Type  : Slow 1200mV 0C Model Setup 'div_frec_1k:inst6|aux_Z'
+Slack : -0.536
+TNS   : -3.114
+
+Type  : Slow 1200mV 0C Model Setup 'Subgrupo-A:inst3|Clock6Hz:inst|x'
+Slack : 0.032
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Clock'
+Slack : -0.166
+TNS   : -0.220
+
+Type  : Slow 1200mV 0C Model Hold 'Subgrupo-A:inst3|Clock6Hz:inst|x'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'div_frec_1k:inst6|aux_Z'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Subgrupo-A:inst3|Clock1Hz:inst3|x'
+Slack : 0.513
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Clock'
+Slack : -3.000
+TNS   : -79.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Subgrupo-A:inst3|Clock1Hz:inst3|x'
+Slack : -1.000
+TNS   : -10.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Subgrupo-A:inst3|Clock6Hz:inst|x'
+Slack : -1.000
+TNS   : -7.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'div_frec_1k:inst6|aux_Z'
+Slack : -1.000
+TNS   : -7.000
+
+Type  : Fast 1200mV 0C Model Setup 'Clock'
+Slack : -12.244
+TNS   : -74.462
+
+Type  : Fast 1200mV 0C Model Setup 'Subgrupo-A:inst3|Clock1Hz:inst3|x'
+Slack : -0.090
+TNS   : -0.216
+
+Type  : Fast 1200mV 0C Model Setup 'div_frec_1k:inst6|aux_Z'
+Slack : 0.056
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Subgrupo-A:inst3|Clock6Hz:inst|x'
+Slack : 0.405
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Clock'
+Slack : -0.181
+TNS   : -0.362
+
+Type  : Fast 1200mV 0C Model Hold 'Subgrupo-A:inst3|Clock6Hz:inst|x'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'div_frec_1k:inst6|aux_Z'
+Slack : 0.188
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Subgrupo-A:inst3|Clock1Hz:inst3|x'
+Slack : 0.304
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clock'
+Slack : -3.000
+TNS   : -83.481
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Subgrupo-A:inst3|Clock1Hz:inst3|x'
+Slack : -1.000
+TNS   : -10.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Subgrupo-A:inst3|Clock6Hz:inst|x'
+Slack : -1.000
+TNS   : -7.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'div_frec_1k:inst6|aux_Z'
+Slack : -1.000
+TNS   : -7.000
+
+------------------------------------------------------------

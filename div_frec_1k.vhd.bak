@@ -1,0 +1,28 @@
+Library IEEE;
+Use IEEE.STD_LOGIC_1164.ALL;
+
+Entity div_frec_1k is
+   port(
+		clk : in std_logic;
+		Z : out std_logic);
+End div_frec_1k;  
+
+Architecture Behavioral of div_frec_1k is 
+
+   signal aux_Z : std_logic; 
+	signal cont : integer range 0 to 49999 :=0;
+
+Begin
+	process(clk) 
+	begin
+		if rising_edge(clk) then
+			if cont = 49999 then 
+				cont <= 0;
+				aux_Z <= not aux_Z;
+			else
+				cont <= cont+1;
+			end if;
+		end if;
+	end process;
+	Z <= aux_Z;
+End Behavioral;

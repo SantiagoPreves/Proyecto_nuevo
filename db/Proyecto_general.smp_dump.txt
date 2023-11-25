@@ -1,0 +1,19 @@
+
+State Machine - |Subgrupo-B|Subgrupo-A:inst3|control_tiempo:inst2|fstate
+Name fstate.V_3 fstate.V_2 fstate.V_1 fstate.V_0 fstate.marcha fstate.parar 
+fstate.parar 0 0 0 0 0 0 
+fstate.marcha 0 0 0 0 1 1 
+fstate.V_0 0 0 0 1 0 1 
+fstate.V_1 0 0 1 0 0 1 
+fstate.V_2 0 1 0 0 0 1 
+fstate.V_3 1 0 0 0 0 1 
+
+State Machine - |Subgrupo-B|control_alternativo:inst2|fstate
+Name fstate.izq_brusca fstate.der_brusca fstate.der_suave fstate.izq_suave fstate.reversa fstate.recta fstate.parado 
+fstate.parado 0 0 0 0 0 0 0 
+fstate.recta 0 0 0 0 0 1 1 
+fstate.reversa 0 0 0 0 1 0 1 
+fstate.izq_suave 0 0 0 1 0 0 1 
+fstate.der_suave 0 0 1 0 0 0 1 
+fstate.der_brusca 0 1 0 0 0 0 1 
+fstate.izq_brusca 1 0 0 0 0 0 1 
